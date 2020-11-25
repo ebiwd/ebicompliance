@@ -1,2 +1,2 @@
 # ebicompliance
-EBI Complaince theme for Drupal7 websites
+EBI Compliance theme for Drupal7 websites
