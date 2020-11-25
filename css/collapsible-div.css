@@ -1,0 +1,52 @@
+/*
+	Apply icon-font character to collapsible handle
+*/
+
+.ctools-collapsible-container .ctools-toggle {
+  float: left;
+  cursor: pointer;
+  background-color: transparent;
+  background-repeat: no-repeat;
+  background-image: none;
+  margin: 0 0.3em 0 0;
+  width: 20px;
+  height: 20px;
+  padding-top:5px;
+}
+
+html.fontface .ctools-collapsible-container .ctools-toggle:before {
+	font-family: 'EBI-Conceptual';
+	font-size: 138.5%;
+	color: #996A44;
+  content: "-";
+  margin: 0 0.3em 0 0;
+}
+
+.ctools-collapsible-container .ctools-collapsible-handle {
+  display: none;
+  color: #996A44;
+  font-size: 182%;
+	border-bottom: 1px solid #CCC;
+	line-height: 163%;
+	margin-bottom: 0.1em;
+}
+
+html.js .ctools-collapsible-container .ctools-collapsible-handle {
+  display: block;
+}
+
+.ctools-collapsible-container .ctools-collapsible-handle {
+  cursor: pointer;
+  font-family: 'HelveticaNeueLT Pro', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  
+}
+
+.ctools-collapsible-container .ctools-toggle-collapsed {
+  /*background-image: url(../images/couple.png);*/
+}
+
+body.fontface .ctools-collapsible-container .ctools-toggle-collapsed:before {
+  color: #996A44;
+  content: "+";
+  margin: 0 0.3em 0 0;
+}

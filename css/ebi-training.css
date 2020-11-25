@@ -1,0 +1,453 @@
+/**********************
+
+*	Calendar styles
+
+***********************/
+.section-training #page .calendar-calendar td a:hover {
+  color: #222;
+}
+
+/*
+.calendar-calendar td a:visited {
+ 
+}
+*/
+
+
+/**********************
+
+*	Training landing page styles
+
+***********************/
+
+.section-training #page #intro h3 {
+	font-size: 277%;
+	margin: 0px 0px 10px 0px;
+	background-color: transparent;
+	border-bottom: 1px solid #cccccc;
+	color: #777;
+}
+
+
+
+/**********************
+
+*	Training events Views list
+
+***********************/
+.section-training #page .views-row {
+padding: 10px 30px 20px 30px;
+margin-bottom: 0.3em;
+background: url("../images/dot.png") repeat-x center bottom;
+}
+
+.section-training #page .views-field p {
+	padding: 0px;
+	margin: 0px;
+}
+
+
+
+.section-training #page .views-field-title  h5 {
+		margin-bottom: 0px;
+		margin-left: -30px;
+}
+
+.section-training #page .views-field-title  h5 a {
+	color: #1f7878;
+	padding-left: 0px;
+}
+
+
+.section-training #page .field-name-field-seminar-abstract,
+.section-training #page .field-name-field-tr-event-overview span,
+.section-training #page .views-field-field-seminar-abstract .field-content,
+.section-training #page .views-field-field-tr-event-overview {
+	color: #996A44;
+}
+
+
+.section-training #page .field-type-location,
+.section-training #page .field-type-datetime,
+.section-training #page .form-item-field-location-type-tid,
+.section-training #page .views-field-field-seminar-date,
+.section-training #page .views-field-field-tr-event-date,
+.section-training #page .views-field-field-tr-event-level,
+.section-training #page .date-display-single,
+.section-training #page .location {
+	color: #777;
+}
+
+.section-training #page .views-field-field-tr-event-level,
+.section-training #page .views-field-field-tr-event-location .location {
+	font-size: 85%;
+}
+
+
+/**********************
+
+*	Training events Exposed filters
+
+***********************/
+.section-training #page form,
+.section-training #page .view-filters,
+.section-training #page .views-exposed-form .views-exposed-widget {
+	float: none;
+	padding: 0px;
+	margin: 0px;
+}
+
+.section-training #page .views-exposed-form {
+	margin-top: 1em;
+	background-color: #dedede;
+	padding-top: 0.2em;
+	-moz-border-radius-topleft: 5px;
+  -webkit-border-top-left-radius: 5px;
+  border-top-left-radius: 5px;
+  -moz-border-radius-topright: 5px;
+  -webkit-border-top-right-radius: 5px;
+  border-top-right-radius: 5px;	
+}
+
+.section-training #page #edit-field-tr-event-location-type-tid-wrapper,
+.section-training #page .views-exposed-form label[for=edit-field-tr-event-location-type-tid] {
+	display:block;
+	width: 100%;
+	float: left;
+	padding: 0;
+	margin:0;
+}
+
+.section-training #page div.views-widget {
+float: right;
+}
+
+.section-training #page .view-filters label.option{
+	font-weight: normal;
+	font-size: 85%;
+}
+
+.section-training #page label[for=edit-field-tr-event-location-type-value] {
+	font-weight: normal;
+	padding: 0px 9px;
+	color: #898989;
+	font-size: 182%;
+}
+
+/*  radiobuttons filtering the list of events on Homepage*/
+.section-training #page .bef-select-as-radios div {
+	float:left;
+	padding-top: 0.8em;
+}
+
+/*  Filtered terms */
+.section-training span.search-filter{
+  -moz-border-radius: 5px;
+  -khtml-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  /* background-color: #7d92c4; */
+  background-color: #ddd;
+  color: 333;
+  padding: 0.2em 0.5em;
+}
+
+/*  Filtered number + total */
+.section-training span.result-number,
+.section-training span.result-total {
+  font-weight: bold;
+}
+
+
+/**********************
+
+*	Registration-button styles
+
+***********************/
+.section-training #page .Invite-only,
+.section-training #page .Apply a:link {
+	text-decoration: none;
+	color: #686868;
+	text-shadow: 1px 1px 1px #ffffff;
+	filter: dropshadow(color=#ffffff, offx=1, offy=1);
+}
+
+
+.section-training #page .Apply {
+	background: rgb(252,220,133); /* Old browsers */
+	/* IE9 SVG, needs conditional override of 'filter' to 'none' */
+	background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2ZjZGM4NSIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiNmZGNjMmEiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+	background: -moz-linear-gradient(top,  rgba(252,220,133,1) 0%, rgba(253,204,42,1) 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(252,220,133,1)), color-stop(100%,rgba(253,204,42,1))); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  rgba(252,220,133,1) 0%,rgba(253,204,42,1) 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  rgba(252,220,133,1) 0%,rgba(253,204,42,1) 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  rgba(252,220,133,1) 0%,rgba(253,204,42,1) 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  rgba(252,220,133,1) 0%,rgba(253,204,42,1) 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fcdc85', endColorstr='#fdcc2a',GradientType=0 ); /* IE6-8 */
+}
+
+.section-training #page .Invite-only {
+	background: rgb(223,223,223); /* Old browsers */
+	/* IE9 SVG, needs conditional override of 'filter' to 'none' */
+	background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2RmZGZkZiIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiNjYmNiY2IiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+	background: -moz-linear-gradient(top,  rgba(223,223,223,1) 0%, rgba(203,203,203,1) 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(223,223,223,1)), color-stop(100%,rgba(203,203,203,1))); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  rgba(223,223,223,1) 0%,rgba(203,203,203,1) 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  rgba(223,223,223,1) 0%,rgba(203,203,203,1) 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  rgba(223,223,223,1) 0%,rgba(203,203,203,1) 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  rgba(223,223,223,1) 0%,rgba(203,203,203,1) 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#dfdfdf', endColorstr='#cbcbcb',GradientType=0 ); /* IE6-8 */
+}
+
+.section-training #page .Invite-only a:link,
+.section-training #page .Apply a:link {
+	text-decoration: none;
+	border: none;
+	display: block;
+	text-align: center;
+	background-image: none;
+}
+
+.section-training #page .Apply a:hover {
+	border-bottom: none;
+	background: rgb(253,204,44); /* Old browsers */
+	/* IE9 SVG, needs conditional override of 'filter' to 'none' */
+	background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2ZkY2MyYyIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiNlOGJlMzYiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+	background: -moz-linear-gradient(top,  rgba(253,204,44,1) 0%, rgba(232,190,54,1) 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(253,204,44,1)), color-stop(100%,rgba(232,190,54,1))); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  rgba(253,204,44,1) 0%,rgba(232,190,54,1) 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  rgba(253,204,44,1) 0%,rgba(232,190,54,1) 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  rgba(253,204,44,1) 0%,rgba(232,190,54,1) 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  rgba(253,204,44,1) 0%,rgba(232,190,54,1) 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fdcc2c', endColorstr='#e8be36',GradientType=0 ); /* IE6-8 */
+-webkit-box-shadow: 0px 1px 5px rgba(50, 50, 50, 0.75);
+	-moz-box-shadow:    0px 1px 5px rgba(50, 50, 50, 0.75);
+	box-shadow:         0px 1px 5px rgba(50, 50, 50, 0.75);
+		-moz-border-radius: 12px;
+	-webkit-border-radius: 12px;
+	border-radius: 12px;
+}
+
+
+.section-training #page .views-field-field-tr-event-reg-type p {
+	display: block;
+	margin-top: 10px;
+	width:100px;
+	padding: 2px 0px;
+	text-align: center;
+	-webkit-box-shadow: 0px 1px 5px rgba(50, 50, 50, 0.75);
+	-moz-box-shadow:    0px 1px 5px rgba(50, 50, 50, 0.75);
+	box-shadow:         0px 1px 5px rgba(50, 50, 50, 0.75);
+		-moz-border-radius: 12px;
+	-webkit-border-radius: 12px;
+	border-radius: 12px;
+
+}
+
+
+
+
+/**********************
+
+*	Panels 2 columns styles
+
+***********************/
+
+.section-training #page .panel-2col { 
+/*  overflow: hidden;  */
+}
+
+.section-training #page .panel-2col .panel-col-first { 
+  float: left; 
+  width: 80%; 
+}
+* html .panel-2col .panel-col-first {
+  width: 79.9%;
+}
+
+.section-training #page .panel-2col .panel-col-first .inside { 
+  margin: 0 .5em 1em 0;
+}
+
+.section-training #page .panel-2col .panel-col-last { 
+  float: left; 
+  width: 20%; 
+}
+* html .panel-2col .panel-col-last {
+  width: 19.9%;
+}
+
+.section-training #page .panel-2col .panel-col-last .inside { 
+  margin: 50% 0 1em 25%;
+}
+
+.section-training #page #panels-edit-display .panel-pane,
+.section-training #page #panels-edit-display .helperclass {
+  margin: .5em;
+}
+
+.section-training #page .panel-2col .panel-separator {
+  margin: 0 0 1em 0;
+}
+
+
+
+
+
+
+/**********************
+
+*	Panels 2 columns stacked styles
+
+/**
+ * @file
+ * Styling for the ds-2col-stacked template.
+ */
+
+.section-training #page .ds-2col-stacked {
+	margin-left: 1%;
+}
+
+.section-training #page .ds-2col-stacked > .group-header {
+}
+
+.section-training #page .ds-2col-stacked > .group-left {
+  float: left; /* LTR */
+  width: 80%;
+}
+
+.section-training #page .ds-2col-stacked > .group-right {
+  float: right; /* LTR */
+  width: 20%;
+}
+
+.section-training #page .ds-2col-stacked > .group-footer {
+  clear: both;
+}
+
+
+
+
+/**
+* Styles for tags in training section
+*
+*/
+.section-training .ebi-tags  {
+  float: left;
+}
+
+/* Hide event type tag if in training section */
+.section-training .ebi-tag-event-type {
+  display:none;
+}
+
+/***  Styles for Tables   ***/
+.section-training th, .section-training thead th, .section-training tbody th {
+  text-align: left;
+  padding-right: 0;
+  border-bottom: none;
+  background-color: #998d5d;
+  color: #ffffff;
+}
+
+.section-training #content table.contenttable_lmenu th {
+  border: 1px solid #ADADAF;
+  color: #ffffff;
+  padding: 3px;
+  vertical-align: top;
+  border-collapse: collapse;
+}
+
+.section-training #content table td.subheading,
+.section-training #content table.contenttable_lmenu td.subheadingleft {
+  background-color: #c3ad5a;
+  border: 1px solid #ADADAF;
+  color: #404040;
+  font-weight: bold;
+  padding: 3px;
+  text-align: left;
+  vertical-align: top;
+}
+
+/* Styles for the landing page of a training course/webinar */
+.section-training #intro {
+  margin-left: 9px !important;
+  padding: 9px;
+}
+
+.section-training .vevent p,
+.section-training .vevent div {
+  margin: 0 0 5px 0;
+}
+
+.page-training-events .vevent p {
+  padding: 0;
+}
+
+.section-training img.sponsor {width: 100px;   margin-left: 0.5em;}
+
+.section-training .event-sponsors {
+  float: right;
+  text-align: center;
+}
+
+.section-training .vevent .field-label-inline-first {
+  font-weight: bold;
+  display: inline;
+}
+
+.section-training .vevent .event-sponsors .field-label-inline-first {
+  display: block;
+}
+
+.section-training .tags-field,
+.section-training .vevent .tags-field {
+  display: block;
+  margin: 0 9px;  
+}
+
+/* Styles for the Registration button */
+/*
+.page-training-events .vevent .event-registration {
+  position: relative;
+  margin: 0 auto;
+  float: right;
+}
+.page-training-events .vevent .event-registration * {
+  text-align: center;
+}
+*/
+.page-training-events .event-registration {
+  position: relative;
+  margin: 0 auto;
+  text-align: right;
+  float: right;
+}
+.page-training-events .event-registration * {
+  text-align: center;
+}
+
+
+.section-training .event-registration-status a:link,
+.section-training .event-registration-status a:visited {
+ text-decoration: none; 
+ color: #FFF;
+ border: none;
+ padding: 6px 8px;
+ background: rgb(218, 181, 74);
+}
+.section-training .event-registration-status a:hover {
+ background: rgb(144, 116, 35);
+}
+
+.section-training .field-name-body li {
+  list-style-position: outside;
+}
+
+/* Hide day, month, year in time details  */ 
+.page-training-events .event-type-webinar .time .day,
+.page-training-events .event-type-webinar .time .month,
+.page-training-events .event-type-webinar .time .year {
+	display: none;
+}
+ 

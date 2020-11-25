@@ -1,0 +1,500 @@
+/*
+body.front #global-footer,
+body.not-front #global-footer {
+  background: #ccc url(../images/EBI_Footer.jpg)  right -28px no-repeat;
+}  
+*/
+
+/* Make captions from the caption_filter module align left instead of the default centre */
+div.caption-inner {
+	text-align: left;
+}
+
+/* begin home page styling */
+body.front form#ebi_search {
+margin: 0  0 0 0.69em;
+padding: 0;
+border: 2px solid #207a7a;
+background-color: #70bdbd;
+-moz-border-radius: 5px;
+-khtml-border-radius: 5px;
+-webkit-border-radius: 5px;
+border-radius: 5px;
+}
+
+body.front form#ebi_search fieldset {
+background: transparent;
+border: 0 none;
+padding: 0;
+margin: 0;
+}
+/* beware for Drupal's "system.theme.css" adding padding and margin */
+
+
+body.front form#ebi_search legend {
+font-size:  136%; 
+background-color: #1d8086;	/* A non-standard colour but it matches the mastead… :( */
+color: #f8f8f8;
+width: 100%;
+font-family: 'HelveticaNeueLT Pro', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+border: 0 none;
+padding:0;
+}
+
+body.front form#ebi_search legend span {
+color: inherit;
+font-weight: normal;
+padding: 0.1em 0 0 0.2em;
+display: block;
+}
+
+body.front form#ebi_search input#query { 
+    margin: 0.69em 0.3em;
+    font-size: 123.1%;
+}
+
+body.front form#ebi_search input#search_submit {
+    display: inline;
+    margin: 0 0.69em;
+}
+
+body.front form#ebi_search p#example { margin-bottom:0.69em; } 
+
+div.view-id-press_releases div.views-row {
+    width:32%;
+    float:left
+}
+
+div.view-id-press_releases div.views-row-1,
+div.view-id-press_releases div.views-row-2 { margin-right: 1%; }
+
+body.front h1 {
+  margin-bottom: 0;
+}
+
+body.front h2 {
+  color: #bfd9d8;
+  margin-bottom: 1em;
+}
+
+body.front p.intro { font-size: 123.1%; }
+
+body.front form#ebi_search { margin-top: 0.5em; margin-bottom:1em }
+
+/* event block styling */
+body.page-about-events .title { background-color: #f4f4f4; padding: 0.1em 0.2em; border-radius:3px; }
+.view-all-events .views-row,
+.view-industry-events .views-row,
+.view-training-eve .views-row { margin: 9px; }
+html.fontface .view-all-events .title:before,
+html.fontface .view-industry-events .title:before,
+html.fontface .view-training-eve .title:before { 
+  font-family: 'EBI-Generic';
+  font-size: 100%;
+  color: #207a7a;
+  content: 'r';
+  margin: 0 0.3em 0 0;
+}
+.view-all-events .date,
+.view-industry-events .date,
+.view-training-eve .date { font-weight: normal; }
+.view-all-events .date span,
+.view-industry-events .date span,
+.view-training-eve .date span { font-weight: inherit; }
+
+
+/* research page styling */
+.view-research-leaders .views-row {
+    width: 50%;
+    float: left;
+}
+.view-research-leaders .views-field-field-person-photo {
+    float: left;
+}
+.view-research-leaders p {
+    margin: 0;
+}
+/* end research page styling */
+
+/* services a-z page styling */
+.view-services .views-summary li {
+  display: inline;
+  width
+}
+/* end services a-z page styling */
+
+/* staff.ebi filter styling */
+#views-exposed-form-resources-page .views-exposed-widget,
+#views-exposed-form-group-members-page .views-exposed-widget {
+    width: 100%;
+    
+}
+#views-exposed-form-resources-page .views-exposed-widget input[type=text],
+#views-exposed-form-resources-page .views-exposed-widget select,
+#views-exposed-form-group-members-page .views-exposed-widget input[type=text],
+#views-exposed-form-group-members-page .views-exposed-widget select {
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+}
+/* end staff.ebi filter styling */
+
+div#panels-ipe-control-container {
+    left: 0;
+    display: none !important;
+}
+
+/* styling for services list page */
+table.views-table td.views-field img {
+  float: left;
+  margin-right: 0.69em;
+  max-width: none;
+  padding: 0 9px;
+}
+table.views-table h2 { font-size: 161.6%; color: #000; display: inline; }
+td h2,
+td h3,
+td h4,
+td h5,
+td h6,
+td p { padding-left: 0; }
+
+/* styling for staff page */
+div.photo img { margin: 0.69em; border:0.3em solid #ccc; float:left; max-width:25% }
+p.role { font-size:123.1%; font-weight:bold; margin-top:0.69em; }
+html.fontface p span.email:before, 
+html.fontface p.email:before {
+  font-family: 'EBI-Generic';
+  font-size: 138.5%;
+  color: #bbb;
+  content: 'E';
+  margin: 0 0.3em 0 0;
+}
+html.fontface p span.tel:before, 
+html.fontface p.tel:before {
+  font-family: 'EBI-Generic';
+  font-size: 138.5%;
+  color: #bbb;
+  content: 'C';
+  margin: 0 0.3em 0 0;
+}
+html.fontface p span.homepage:before, 
+html.fontface p.homepage:before {
+  font-family: 'EBI-Generic';
+  font-size: 138.5%;
+  color: #bbb;
+  content: 'H';
+  margin: 0 0.3em 0 0;
+}
+
+
+
+/* research leaders overview styling */
+.view-research-leader-overview .views-row {
+  width: 50%;
+  float:left;
+}
+.view-research-leader-overview .views-row-odd {
+  clear:left;
+}
+.view-research-leader-overview p {
+  margin: 0;
+}
+.view-research-leader-overview .image {
+  float: left;
+  margin-left: 9px;
+  width: 33%;
+}
+.view-research-leader-overview .name {
+  font-weight: bold;
+}
+html.fontface .view-research-leader-overview .group-link:before {
+  font-family: 'EBI-Generic';
+  font-size: 100%;
+  margin: 0 0.3em 0 0;
+  color: #bbb;
+  content: 'f';
+}
+html.fontface .view-research-leader-overview .publication-link:before {
+  font-family: 'EBI-Generic';
+  font-size: 100%;
+  margin: 0 0.3em 0 0;
+  color: #bbb;
+  content: 'P';
+}
+html.fontface .view-research-leader-overview .contact-link:before {
+  font-family: 'EBI-Generic';
+  font-size: 100%;
+  margin: 0 0.3em 0 0;
+  color: #bbb;
+  content: 'C';
+}
+
+/* research team members styling */
+.view-research-team-members .views-row {
+  width: 25%;
+  float: left;
+}
+.view-research-team-members .views-row:nth-child(4n+1) {
+  clear:left;
+}
+.view-research-team-members .name,
+.view-research-team-members p {
+  margin: 0;
+}
+.view-research-team-members .image {
+  float: left;
+  margin-left: 9px;
+}
+
+
+/* style for staff page */
+.view-resource-positions .views-row,
+.view-people-positions .views-row
+/*,.view-people-resources .views-row*/ {
+  width: 75px;
+  float: left;
+  margin-left: 9px;
+}
+.view-resource-positions .views-row:nth-child(4n+1),
+.view-people-positions .views-row:nth-child(4n+1)
+/*,.view-people-resources .views-row:nth-child(4n+1)*/ {
+   clear:left;
+}
+
+/* button style for service overview */
+.view-resource-team-info .url {
+    float:right;		
+    display:inline;
+    margin:0.5em 9px;
+    padding: 3px 9px;
+    
+    -moz-border-radius: 5px;
+    -khtml-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    font-size: 108%;	/* 12px */
+    border-width: 1px;
+    
+    border-color: #618658;
+    
+    background-color: #207a7a;	/* colour P1 */
+    background-image: -moz-linear-gradient(top, #54bdbd, #207a7a); 
+    background-image: -webkit-gradient(linear,left top,left bottom,color-stop(0, #54bdbd),color-stop(1, #207a7a)); 
+    background-image: -webkit-linear-gradient(#54bdbd, #207a7a); 
+    background-image: linear-gradient(top, #54bdbd, #207a7a);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorStr='#54bdbd', EndColorStr='#207a7a'); 
+    
+    box-shadow: 0px 2px 2px #adadad;
+    -moz-box-shadow: 0px 2px 2px #adadad;
+    -khtml-box-shadow: 0px 2px 2px #adadad;
+    -webkit-box-shadow: 0px 2px 2px #adadad;
+    
+    color: #f8f8f8;
+    text-shadow: #145251 0 1px 1px;
+    width: auto;
+    
+    /* IE7 */
+    *padding-top: 0px;
+    *padding-bottom: 0px;	
+    border-color: #295c5c;	/* P2 */
+}	
+.view-resource-team-info .url:hover { background: #207a7a; }
+.view-resource-team-info .url a{ color: inherit; border-bottom: none; }
+
+
+
+/* custom style for service categories */
+/*
+.view-service-categories .views-row {
+  width: 30%;
+  float: left;
+}
+.view-service-categories .views-row:nth-child(3n+1) {
+  clear: both;
+}
+*/
+
+  @media screen and (min-width: 1201px) {
+    .view-service-categories .views-row { width: 31% !important; float: left; }
+    .view-service-categories .views-row:nth-child(3n+1) { clear: both; !important }
+  }
+  @media screen and (max-width: 1200px) {
+    .view-service-categories .views-row { width: 47% !important; float: left; }
+    .view-service-categories .views-row:nth-child(2n+1) { clear: both; !important }
+  }
+  @media screen and (max-width: 950px) {
+    .view-service-categories .views-row { width: 97% !important; clear: both !important; }
+  }
+
+
+
+html.fontface .view-service-categories .name:before {
+  font-family: 'EBI-Conceptual';
+  font-size: 138.5%;
+  margin: 0 0.3em 0 0;
+}  
+html.fontface .view-service-categories .dna-rna:before {
+  color: #dac79d;
+  content: 'd';
+}
+html.fontface .view-service-categories .gene-expression:before {
+  color: #dab7e2;
+  content: 'g';
+}
+html.fontface .view-service-categories .proteins:before {
+  color: #62d0df;
+  content: 'P';
+}
+html.fontface .view-service-categories .structures:before {
+  color: #afc9b8;
+  content: 's';
+}
+html.fontface .view-service-categories .systems:before {
+  color: #ffb4aa;
+  content: 'y';
+}
+html.fontface .view-service-categories .chemical-biology:before {
+  color: #ffc999;
+  content: 'b';
+}
+html.fontface .view-service-categories .ontologies:before {
+  color: #bec3d9;
+  content: 'o';
+}
+html.fontface .view-service-categories .literature:before {
+  color: #c5d4a3;
+  content: 'l';
+}
+html.fontface .view-service-categories .other-software:before {
+  color: #a4c7e2;
+  content: 'c';
+}
+
+
+/* service group members and alumni pages */
+.view-service-group-members .views-row,
+.view-service-group-alumni .views-row {
+  width: 25%;
+  float: left;
+}
+.view-service-group-members .views-row:nth-child(4n+1),
+.view-service-group-alumni .views-row:nth-child(4n+1) {
+  clear:left;
+}
+.view-service-group-members .name,
+.view-service-group-alumni .name,
+.view-service-group-members p,
+.view-service-group-alumni p {
+  margin: 0;
+}
+.view-service-group-members .image,
+.view-service-group-alumni .image {
+  float: left;
+  margin-left: 9px;
+}
+
+
+/* styling for people and groups page */
+.view-people-and-groups dd {margin: 0 0 1.5em 0.69em;}
+html.fontface .pane-people-and-groups h3:before {
+  font-family: 'EBI-Generic';
+  font-size: 100%;
+  color: #333;
+  margin: 0 0.3em 0 0;
+}
+.pane-people-and-groups.services h3 { border-bottom: 3px solid #207a7a; }
+.pane-people-and-groups.research h3 { border-bottom: 3px solid #71b360; }
+.pane-people-and-groups.other h3 { border-bottom: 3px solid #60bdc4 ; }
+html.fontface .pane-people-and-groups.research h3:before { content: ')'; }
+html.fontface .pane-people-and-groups.services h3:before { content: '('; }
+html.fontface .pane-people-and-groups.other h3:before { font-family: 'EBI-Conceptual'; content: 'c'; }
+form#people-groups input { font-size: 123.1%; display: inline; }
+form#people-groups input[type="text"] { width: 50%; }
+
+/* style for press release */
+body.node-type-press-release .pane-node-field-image, 
+body.node-type-news .field-name-field-image {
+  float: left;
+}
+body.node-type-press-release .pane-node-field-image, 
+body.node-type-news .field-name-field-image,
+body.node-type-news .field-name-field.url {
+  padding: 0 9px;
+}
+
+/* style press release list */
+.view-press-releases td.image {
+  width: 150px;
+}
+.view-press-releases .views-row-first {
+  margin-left: 0;
+}
+.view-press-releases .views-row-last {
+  margin-right: 0;
+}
+
+/* style service news and press release lists */
+.view-press-releases h3.title,
+.view-news h3.title {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.view-press-releases p.date,
+.view-news p.date {
+  font-weight: bold;
+  margin-bottom: 0.43em;
+}
+body.page-about-news-service-news a.feed-icon,
+body.page-about-news-press-releases a.feed-icon,
+body.page-about-events a.feed-icon {
+  position: absolute; 
+  top: 19px;
+  right: 9px;
+  border-bottom: none;
+}
+
+
+/* style blogs list */
+body.page-about-news-blogs tr td:first-child {
+  width: 150px;
+}
+
+/* style brochures list */
+body.page-brochures-about-embl-ebi tr td:first-child {
+  width: 150px;
+}
+
+.view-resources-info td {
+  vertical-align: middle;
+}
+
+.field-name-body li {
+  list-style-position: inside;
+}
+
+.field-name-field-relatied-stories, .field-name-field-url {
+  padding: 0 9px;
+}
+
+
+/* Feedback styles */
+/*
+ul#local-nav li.menu-feedback, ul#local-nav li.menu-share { 
+float: right; 
+background-color: #111;
+}
+ul#local-nav li.menu-feedback, ul#local-nav li.menu-share {
+border-right: none;
+border-left: 1px dotted #f8f8f8;
+}
+ul#local-nav li.menu-feedback.last, ul#local-nav li.menu-share.last {
+border-left: none;
+}
+*/
+
+a.no-underline,
+a.no-underline:link,
+a.no-underline:visited {
+  border-bottom: none;
+}

@@ -1,0 +1,23 @@
+body.subsite-rdf table td a {
+  -ms-word-break: break-all;
+  word-break: break-all;
+
+  /* Non standard for webkit */
+  word-break: break-word;
+
+  -webkit-hyphens: auto;
+  -moz-hyphens: auto;
+  hyphens: auto;
+}
+
+body.subsite-rdf #intro {
+  margin-left: 9px;
+  padding-top: 10px;
+}
+
+/*
+body.subsite-rdf div#local-masthead ul li#feedback {
+background-color: #3f767b;
+float: right;
+}
+*/

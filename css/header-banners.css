@@ -1,0 +1,96 @@
+/* background style for headers */
+
+/*
+body.front #local-masthead {
+  background: #156765 url(../images/EBI_banner_Homepage.jpg) top right no-repeat;
+}
+*/
+body.subdomain-intranet.front #local-masthead,
+body.subdomain-intranet #local-masthead {
+  background: #156765 url(../images/EBI_banner_Intranet.jpg) top right no-repeat;
+}
+body.subdomain-rdf #local-masthead,
+body.subsite-rdf #local-masthead  {
+  background: #60bdc4 url(../images/EBI_SERVICES_Banner.jpg) top right no-repeat;
+}
+/*
+body.section-services #local-masthead {
+  background: #a2c6c6 url(../images/EBI_banner_Services.jpg) top right no-repeat;
+}
+body.section-research #local-masthead {
+  background: #aad095 url(../images/EBI_banner_Research.jpg) top right no-repeat;
+}
+body.section-industry #local-masthead {
+  background: #afafaf url(../images/industry-header.png) top right no-repeat;
+}
+body.section-training #local-masthead {
+  background: #f9e292 url(../images/EBI_banner_Training.jpg) top right no-repeat;
+}
+body.section-about #local-masthead {
+  background: #146664 url(../images/EBI_banner_About.jpg) top right no-repeat;
+}
+body.section-careers #local-masthead {
+  background: #f1a8af url(../images/EBI_banner_Careers.jpg) top right no-repeat;
+}
+*/
+
+/* black with white shadow */
+/*
+body.section-about #local-title h1,
+body.section-about #local-title h1 span,
+body.section-research #local-title h1,
+body.section-research #local-title h1 span,
+body.section-training #local-title h1,
+body.section-training #local-title h1 span {
+  color: #000;
+}
+*/
+
+/* white with black shadow */
+/*
+body.front #local-title h1,
+body.front #local-title h1 span,
+body.front #local-title .content p,
+body.section-services #local-title h1,
+body.section-services #local-title h1 span,
+body.section-industry #local-title h1,
+body.section-industry #local-title h1 span {
+  color: #fff;
+}
+*/
+
+/* front page text sizing */
+/*
+body.front #local-title h1 {
+  font-size: 320%;
+  letter-spacing: -1px;
+  font-weight: bold;
+  margin-bottom: 0.3em;
+  margin-top: 0;
+  padding-top: 20px;
+}
+body.front #local-title p {
+  font-size: 120%;
+  margin-top: 0;
+}
+*/
+
+/* non-front page text sizing */
+/*
+body.front.domain-intranet #local-title h1,
+body.not-front #local-title h1 {
+  font-weight: bold;
+  letter-spacing: -1px;
+  font-size: 325%;
+  margin-top: 0;
+  padding-top: 20px;
+}
+body.domain-intranet.front #local-title h1 span,
+body.not-front #local-title h1 span {
+  font-size: 85%;
+  font-weight: normal;
+  display: block;
+  margin-left: 0;
+  margin-bottom: -12px;
+}
+*/

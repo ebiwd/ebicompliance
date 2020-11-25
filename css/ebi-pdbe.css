@@ -1,0 +1,33 @@
+/* style pdbe news and events */
+
+body.subsite-pdbe .view-news-summary p.date {
+  font-weight: bold;
+  margin-bottom: 0.43em;
+}
+body.subsite-pdbe .pdbe-news-date {
+  font-weight: bold;
+  margin: 0 9px 9px;
+}
+body.subsite-pdbe .view-event-details {
+  margin: 0 9px 9px;
+}
+body.subsite-pdbe .view-pdbe-publications .description {
+  margin-left: 9px;
+  margin-right: 9px;
+}
+
+body.subsite-pdbe div#local-masthead {
+  background: #d8e5d8 url(../images/PDBe-banner_mono.png) top right no-repeat !important; 
+}
+
+body.subsite-pdbe div#local-title h1, 
+body.subsite-pdbe div#local-title p, 
+body.subsite-pdbe div#local-title a {
+    color: #666666 !important;
+    text-shadow: 1px 1px white !important; 
+}
+/*
+body.subsite-pdbe div#local-title img {
+    margin-top: 0.4em; 
+}
+*/

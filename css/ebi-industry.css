@@ -1,0 +1,105 @@
+.page-industry-private-projects div.caption p {
+  display: none;
+  height: 0px;
+}
+
+.node-type-industry-project #intro p,
+.node-type-industry-project #intro img {
+        padding-top: 10px;
+}
+
+.node-type-industry-project #intro div.caption p {
+  width: 220px;
+}
+
+.section-industry div.caption p {
+  padding-left: 0px;
+}
+
+#projectgallery {
+  padding-left: 9px;
+}
+
+#projectgallery .caption {
+  margin-bottom: 0px;
+}
+
+
+#projectgallery .caption-inner {
+  width: 100px;
+}
+
+#projectgallery .caption.left {
+  width: 100px;
+  float:left;
+}
+
+#projectgallery p {
+  font-size: 85%;
+  font-family: Verdana,sans-serif;
+  color: #777;
+  text-align: left;
+}
+
+#projectgallery img {
+  margin-right: 10px;
+  float:left;
+}
+
+
+.section-industry .views-label {
+        font-weight: bold;
+}
+
+
+.section-industry #intro {
+   padding: 9px;
+   
+}
+
+/*
+.section-industry .views-row,
+.section-industry .pane-node-field-ind-event-programme {
+        padding: 0 9px;
+}
+
+
+.section-industry .item-list ul {
+margin: 0 0 0.75em 0;
+padding: 0 9px;
+}
+*/
+
+/*
+.section-industry .panel-pane {
+padding: 0 9px;
+}
+*/
+
+/*
+.section-industry .field-items ul,
+.section-industry .field-items ol {
+padding: none;
+}
+*/
+.section-industry .views-field-field-ind-event-image {
+  float: right;
+}
+.section-industry .view-industry-event-details {
+  margin-left: 9px;
+}
+
+.section-industry a.registration-link {
+    display: block;
+    float: right;
+    background: #83a3c9;
+    padding: 6px 8px;
+    border: none;
+    color: white;
+    text-decoration: none;
+}
+
+.section-industry a.registration-link:hover {
+    background: #55697e;
+}
+

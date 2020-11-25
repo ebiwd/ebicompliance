@@ -1,0 +1,27 @@
+/*
+table.views-table {
+	table-layout:fixed;
+}
+*/
+
+.panel-flexible .views-row-last a,
+table.views-table th.views-field-description,
+table.views-table td.views-field-description {
+	-ms-word-break: break-all;
+  word-break: break-all;
+
+  /* Non standard for webkit */
+  word-break: break-word;
+
+	-webkit-hyphens: auto;
+  -moz-hyphens: auto;
+  hyphens: auto;
+
+}
+
+body.subsite-ega #local-masthead,
+body.subsite-ega.section-about #local-masthead,
+body.subsite-ega.front #local-masthead  
+{
+  background:#156765 url(../images/EBI_banner_Homepage.jpg) top right no-repeat;
+}

@@ -1,0 +1,24 @@
+/*
+  Override drupal contextual links styles, due to clash with ebi styles
+*/
+div#wrapper div.contextual-links-wrapper {
+  font-size: 9px; 
+}
+div#wrapper div.contextual-links-wrapper ul.contextual-links {
+  background-color: #fff;
+  border: 1px solid #ccc;
+  width: auto;
+  height: auto;
+  margin-top: 0;
+}
+div#wrapper div.contextual-links-wrapper a {
+  border-bottom: 0 none;
+}
+div#wrapper ul.contextual-links li a {
+  color: #333 !important;
+  border-bottom: 0px none;
+}
+div#wrapper ul.contextual-links li a:hover {
+  background-color: #bfdcee;
+  border-bottom: 0px none;
+}

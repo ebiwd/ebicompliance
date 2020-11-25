@@ -1,0 +1,291 @@
+/* Styles for Event Teaser */
+.event-teaser {
+/*  padding: 0 9px; */
+  margin-bottom: 1.3em;
+}
+
+.event-teaser span {
+  display: inline-block;
+}
+
+.event-teaser div.date {
+  display: block;
+}
+
+.event-teaser .event-field {
+  margin: 0 9px;
+  display: block;
+}
+
+.course-teaser-details,
+.event-teaser-details  {
+  top: 0.1em;
+  width: 88%;
+}
+@media (max-width: 1075px) {
+  .event-teaser-details  {
+    width: 91%;
+  }
+}
+@media (max-width: 960px) {
+  .event-teaser-details  {
+    width: 90%;
+  }
+}
+@media (max-width: 865px) {
+  .event-teaser-details  {
+    width: 89%;
+  }
+}
+@media (max-width: 795px) {
+  .event-teaser-details  {
+    width: 88%;
+  }
+}
+@media (max-width: 725px) {
+  .event-teaser-details  {
+    width: 87%;
+  }
+}
+
+.event-teaser .event-date {
+  position: relative;
+  top: 0.1em;
+  border: 1px solid #afafaf;
+  display: block;
+  float: left;
+  width: 1.8em;
+  padding: 2px;
+  text-align: center;
+  font-weight: bold;
+  color: #444;
+  font-size: 123%;
+  margin: 0 9px;
+}
+
+/***   Styles for Online Course   ***/
+.course-teaser p {
+  margin: 0 0 5px 0;
+}
+
+.course-teaser {
+/*  padding: 0 9px; */
+  margin-bottom: 1.3em;
+}
+
+.course-teaser span {
+  display: inline-block;
+}
+
+.course-teaser div.date {
+  display: block;
+}
+
+.course-teaser .event-field {
+  margin: 0 9px;
+  display: block;
+}
+
+.course-teaser .start-now {
+  position: relative;
+  top: 0.1em;
+  border: 1px solid #afafaf;
+  display: block;
+  float: left;
+  padding: 2px;
+  text-align: center;
+  font-weight: bold;
+  color: #444;
+  font-size: 85%;
+  margin: 0 9px;
+
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  border-radius: 2px;
+  
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#eeeeee+0,cccccc+100;Gren+3D */
+  background: #eeeeee; /* Old browsers */
+  background: -moz-linear-gradient(top,  #fefefe 0%, #efefef 100%); /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#fefefe), color-stop(100%,#efefef)); /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top,  #fefefe 0%,#efefef 100%); /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top,  #fefefe 0%,#efefef 100%); /* Opera 11.10+ */
+  background: -ms-linear-gradient(top,  #fefefe 0%,#efefef 100%); /* IE10+ */
+  background: linear-gradient(to bottom,  #fefefe 0%,#efefef 100%); /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fefefe', endColorstr='#efefef',GradientType=0 ); /* IE6-9 */
+}
+
+.course-teaser .start-now a:link {
+  border-bottom: none;
+  text-shadow: 1px 1px 1px rgba(180, 180, 180, 1);
+}
+
+.section-about .event-participation {
+	display:none;
+}
+
+
+/* Styles for tags: Global */
+.ebi-tags * {   /* Wrapper */ 
+  display: inline-block;
+}
+
+.ebi-tag   {
+  display: inline-block;
+  float: none;
+  margin-top: 0.1em;
+  margin-right: 0.3em;
+  background-color: #ddd;
+  padding: 1px 4px 1px 4px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;  
+}
+
+
+/* Styles for tags: Local */
+.ebi-tags  {
+  float: right;
+}
+
+
+.ebi-tag a:link,
+.ebi-tag a:visited {
+  border: none;
+}
+
+.ebi-tag-event-type {
+  background-color: #3f7578;
+  margin-left: 0.3em;
+}
+
+.ebi-tag-topic {
+  background-color: #fab700;
+  color: #fff;
+}
+
+.ebi-tag-event-type a:link,
+.ebi-tag-event-type a:visited {
+  color: #fff;
+}
+
+.ebi-tag-topic a:link,
+.ebi-tag-topic a:visited {
+  color: #fff;
+}
+
+
+/* Styles for the Event's title ( parent class = event-teaser ) */
+.event-title {
+  margin-top: 0;
+  display: block;
+  clear: left;
+}
+
+.event-title a,
+.event-title a:link {
+  border-bottom-width: 1px;
+	border-bottom-style: dotted;
+	border-bottom-color: inherit;
+  color: #3e3e3e;
+}
+
+.event-title a:visited {
+color: #666;
+}
+
+.event-title a:hover {
+  color: #0e6a0e;
+  border-bottom-style: solid;
+  border-bottom-color: inherit;
+}
+
+
+
+
+/***   Styles for Calendar day. Stolen from Lanyrd.com  ***/
+.event-date {
+position: relative;
+top: 0.1em;
+display: block;
+float: left;
+padding: 2px;
+text-align: center;
+font-weight: bold;
+color: #444;
+font-size: 123%;
+}
+
+.event-date .startday {
+  position: relative;
+  top: 0.1em;
+  border: 1px solid #8CB4E0;
+  display: block;
+  float: left;
+  width: 1.8em;
+  margin-left: -3em;
+  padding: 2px;
+  text-align: center;
+  font-weight: bold;
+  color: #3C80CA;
+  background-color: white;
+}
+
+.event-date .calendarpage {
+  display: block;
+  width: 100%;
+  height: 4px;
+  background-color: #cecece;
+}
+
+
+.event-date .calendarpage .ick {
+background-color: #afafaf;
+width: 0.25em;
+height: 0.35em;
+position: absolute;
+left: 0.3em;
+top: -0.3em;
+}
+
+.event-date .calendarpage .uck {
+left: 1.5em;
+}
+
+
+/***  Styles for Tables   ***/
+.events table {
+  border-spacing: 0 10px;
+}
+
+.events table tr {
+  background-color: #fff;
+  border: 5px solid #fff;
+  margin: 1em;
+}
+
+.events table tr {
+  border-bottom: 10px solid #fff;
+}
+.events th, 
+.events body.table-layout table.data th, 
+.events td, 
+.events body.table-layout table.data td {
+  border: none;
+}
+
+.subsection-events .event-registration-status a:link,
+.subsection-events .event-registration-status a:visited {
+ text-decoration: none; 
+ color: #FFF;
+ border: none;
+ padding: 6px 8px;
+ background: #0b7b7d;
+}
+.subsection-events .event-registration-status a:hover {
+ background: #0b7b7d;
+}
+
+/* Fix for seminar single page title overlapping with map on the right sidebar */
+body.page-about-events-seminars- .panel-pane.seminar-speaker-name {
+ width: 57%;
+}

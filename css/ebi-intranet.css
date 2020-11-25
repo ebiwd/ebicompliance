@@ -1,0 +1,20 @@
+body.subdomain-intranet .section-intranet-homepage table { table-layout: fixed; }
+
+body.subdomain-intranet #intro {
+ padding-top: 9px;
+}
+
+body.front .view-intranet-homepage tr td {
+    width: 25%;
+}
+
+/* bonus for smaller browser windows */
+@media (max-width: 800px) {
+  body.front .view-intranet-homepage tr td {
+    width: 48%;
+    display: inline-block;
+    border: none;
+    padding: 0 1% 1em;
+  }
+}
+

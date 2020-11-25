@@ -1,0 +1,33 @@
+name = EBI Compliance Theme
+engine = phptemplate
+core = 7.x
+version = 7.x-2.3
+screenshot = images/screenshot.png
+
+regions[help] = Help
+regions[highlighted] = Highlighted
+regions[content] = Content
+regions[sidebar_first] = First sidebar
+regions[sidebar_second] = Sidebar second
+regions[local_title] = Local title
+regions[local_search] = Local search 
+regions[local_nav] = Local navigation 
+regions[local_footer] = Local footer 
+
+
+stylesheets[all][] = css/ebi-events.css
+stylesheets[all][] = css/ebi-rdf.css
+stylesheets[all][] = css/ebi-pdbe.css
+stylesheets[all][] = css/ebi-ega.css
+stylesheets[all][] = css/ebi-eva.css
+stylesheets[all][] = css/ebi-industry.css
+stylesheets[all][] = css/ebi-intranet.css
+stylesheets[all][] = css/ebi-training.css
+stylesheets[all][] = css/calendar_multiday.css
+;stylesheets[all][] = css/collapsible-div.css
+stylesheets[all][] = css/drupal-reset.css
+stylesheets[all][] = css/header-banners.css
+stylesheets[all][] = css/style.css
+
+
+plugins[panels][styles] = panels_styles

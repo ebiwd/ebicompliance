@@ -1,0 +1,6 @@
+body.subsite-eva #local-masthead,
+body.subsite-eva.section-about #local-masthead,
+body.subsite-eva.front #local-masthead  
+{
+  background:#156765 url(../images/EBI_banner_Homepage.jpg) top right no-repeat;
+}
